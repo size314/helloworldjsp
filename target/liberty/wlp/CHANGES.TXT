@@ -1,0 +1,11 @@
+PH64427 33238 IM GUI rollback
+OLGH28266 Investigate possible memory leak in sipcontainer
+OLGH28889 Invalid multipart content with empty stream regression
+OLGH29946 Update Expression Language 5.0 API and IMPL version 10.1.31
+OLGH30245 Lease log creation may fail when configured for peer recovery
+OLGH30258 MP Telemetry does not provide the `io.opentelemetry.api.baggage.propagation` package
+OLGH30341 UpgradeHandler fails to notify the application of the initial data.
+OLGH30363 Failed to install versionless features with JEE10 and MP7 plafforms
+OLGH30383 Connectionpool Metrics do not repopulate when restarting an application for all MP Metric features (that support monitor metrics)
+OLGH30399 CNTR0020E caused by java.lang.NoClassDefFoundError: com/ibm/ejs/container/util/ExceptionUtil
+OLGH30414 Port MYFACES-4117 (No default name for @FacesComponent with createTag=true and no tagName)

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+server.xml: https://openliberty.io/docs/latest/reference/config/server-configuration-overview.html#server-xml
+-->
+<server>
+  <featureManager>
+    <platform>javaee-8.0</platform>
+    <feature>jsp</feature>
+    <feature>transportSecurity-1.0</feature>
+  </featureManager>
+
+  <httpEndpoint host="*" httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint" />
+
+  <webApplication location="helloworldjsp.war" contextRoot="/">
+  </webApplication>
+
+  <!--
+    To enable TLS, in addition to the transportSecurity-1.0 feature,
+    either specify keystore_password in server.env or as an
+    environment variable, or specify a keystore element with an explicit
+    password (optionally encrypted):
+    https://openliberty.io/docs/latest/reference/feature/transportSecurity.html
+
+    We choose the latter for more flexibility. The value must be a minimum
+    of 6 characters (see CWPKI0808E).
+  -->
+  <variable name="keystore_password" defaultValue="changeme" />
+  <keyStore id="defaultKeyStore" password="${keystore_password}" />
+</server>
