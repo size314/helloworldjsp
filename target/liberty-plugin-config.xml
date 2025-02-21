@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <liberty-plugin-config>
-    <installDirectory>C:\Users\robsan\git\helloworldjsp\target\liberty\wlp</installDirectory>
+    <installDirectory>C:\Users\robsan\eclipse-workspace\size314\helloworldjsp\target\liberty\wlp</installDirectory>
     <assemblyArtifact>
         <groupId>com.ibm.websphere.appserver.runtime</groupId>
         <artifactId>wlp-kernel</artifactId>
@@ -8,12 +8,12 @@
         <type>zip</type>
     </assemblyArtifact>
     <assemblyArchive>C:\Users\robsan\.m2\repository\com\ibm\websphere\appserver\runtime\wlp-kernel\25.0.0.1\wlp-kernel-25.0.0.1.zip</assemblyArchive>
-    <assemblyInstallDirectory>C:\Users\robsan\git\helloworldjsp\target\liberty</assemblyInstallDirectory>
+    <assemblyInstallDirectory>C:\Users\robsan\eclipse-workspace\size314\helloworldjsp\target\liberty</assemblyInstallDirectory>
     <refresh>false</refresh>
-    <serverDirectory>C:\Users\robsan\git\helloworldjsp\target\liberty\wlp\usr\servers\helloworldjspServer</serverDirectory>
-    <userDirectory>C:\Users\robsan\git\helloworldjsp\target\liberty\wlp\usr</userDirectory>
-    <serverOutputDirectory>C:\Users\robsan\git\helloworldjsp\target\liberty\wlp\usr\servers\helloworldjspServer</serverOutputDirectory>
+    <serverDirectory>C:\Users\robsan\eclipse-workspace\size314\helloworldjsp\target\liberty\wlp\usr\servers\helloworldjspServer</serverDirectory>
+    <userDirectory>C:\Users\robsan\eclipse-workspace\size314\helloworldjsp\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\Users\robsan\eclipse-workspace\size314\helloworldjsp\target\liberty\wlp\usr\servers\helloworldjspServer</serverOutputDirectory>
     <serverName>helloworldjspServer</serverName>
     <projectType>war</projectType>
-    <warSourceDirectory>C:\Users\robsan\git\helloworldjsp\src\main\webapp</warSourceDirectory>
+    <warSourceDirectory>C:\Users\robsan\eclipse-workspace\size314\helloworldjsp\src\main\webapp</warSourceDirectory>
 </liberty-plugin-config>
